@@ -1,5 +1,8 @@
 本工具仅供学习交流和个人数据备份使用，请勿用于非法用途，请遵守 DeepSeek 官方服务条款。
 
+# 构建exe程序
+pyinstaller --noconsole --onefile --icon=NONE --name=DeepSeekExporter deepseek_gui_v2.py
+
 # 使用说明
 1、双击运行程序
 2、输入Authorization 和 cookie
